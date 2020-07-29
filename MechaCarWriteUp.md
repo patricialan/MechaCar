@@ -1,7 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Overview
-Statistical analysis using R Studio was performed on the MechaCar Prototype to investigate what variables correlate with its fuel efficiency and how its suspension coil compares to desired specifications and population values. In addition, a study was proposed to compare its performance with similar vehicles. 
+Statistical analysis using R Studio was performed on the MechaCar Prototype to investigate what variables correlate with its fuel efficiency and how its suspension coil compares to desired specifications and population values. (See [MechaCarChallenge.R](MechaCarChallenge.R) for the R Studio script.) In addition, a study was proposed to compare its performance with similar vehicles. 
 
 ## Miles Per Gallon (MPG) Regression
 A multiple linear regression model of MechaCar was generated using the variables miles per gallon (mpg), vehicle length (ft), vehicle weight (lb), spoiler angle (degrees), and ground clearance (inch). Vehicle length, ground clearance and the y-intercept provided non-random (< 0.001 p-values) amounts of variance to mpg values (Figure 1).
