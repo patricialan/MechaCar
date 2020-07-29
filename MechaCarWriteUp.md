@@ -28,7 +28,9 @@ The MechaCar's suspension coil's mean PSI was not statistically different from t
 ![t_test.png](figures/t_test.png)
 
 ## Study Proposal: Comparing MechaCar's Performance
-To compare performance, MechaCar can be compared to other vehicles released in 2020 in the same vehicle class. Metrics for comparison would include price, city fuel efficiency, highway fuel efficiency, horsepower, and number of colour options. Questions to ask are: Is MechaCar less expensive? More fuel efficient? Does it have greater horsepower? And does it have a similar number of colour options as other vehicles? 
+To compare performance, MechaCar can be compared to other vehicles released in 2020 in the same vehicle class. Metrics for comparison would include price, city fuel efficiency, highway fuel efficiency, horsepower, and number of colour options. These metrics are chosen because the most customers are thought to prefer vehicles that have high fuel efficiency, to be attracted to vehicles with higher horsepower, to purchase vehicles that (despite having the previous desired qualities) are reasonably-priced or less expensive, and to expect a selection of common colour options (e.g. black, white, silver, and a few other colours).
+
+For this study, questions to ask are: Is MechaCar less expensive? More fuel efficient? Does it have greater horsepower? And does it have a similar number of colour options as other vehicles? 
 
 For price, hypotheses would be "equal to or higher price than others" (null) vs. "less expensive" (alternate). For both fuel efficiencies and horse power, hypotheses would be "equal to or lower fuel efficiency/horsepower" (null) vs. "higher fuel efficiency/horsepower" (alternate). Finally, for colour, hypotheses would be "similar number of colour options" (null) vs. "more/less colour options" (alternate). Hypotheses would thus be one-tailed, except for for colour which would be two-tailed. 
 
