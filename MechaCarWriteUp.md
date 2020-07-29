@@ -36,10 +36,10 @@ Normal distribution would be verified qualitatively or quantitatively (Shapiro-W
 
 Data would need to be collected for all vehicles released in 2020 that are of the same vehicle class as MechaCar. These include vehicle make and model, price, city fuel efficiency, highway fuel efficiency, horsepower, and number of colour options per vehicle. 
 
-## Data
+## Resources
 ### Software
 - RStudio 1.3.1056
 
-### Sources
+### Data
 - [MechaCar_mpg.csv](data/MechaCar_mpg.csv) (for MPG Regression)
 - [Suspension_Coil.csv](data/Suspension_Coil.csv) (for Suspension Coil Summary)
