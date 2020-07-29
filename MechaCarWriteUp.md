@@ -6,7 +6,7 @@ Statistical analysis using R Studio was performed on the MechaCar Prototype to i
 ## Miles Per Gallon (MPG) Regression
 A multiple linear regression model of MechaCar was generated using the variables miles per gallon (mpg), vehicle length (ft), vehicle weight (lb), spoiler angle (degrees), and ground clearance (inch). Vehicle length, ground clearance and the y-intercept provided non-random (< 0.001 p-values) amounts of variance to mpg values (Figure 1).
 
-Figure 1
+#### Figure 1
 ![summary_mlr.png](figures/summary_mlr.png)
 
 The slope of the linear model was non-zero as evidenced by non-zero, positive coefficients for each variable (vehicle length: ~6.24, vehicle weight: ~0.001, spoiler angle: ~0.08, and ground clearance: ~3.66) and by the -1.08 y-intercept value (Figure 1). These indicated an overall positive correlation between the variables and mpg.
@@ -16,7 +16,7 @@ This linear model does not predict mpg of MechaCar prototypes effectively (beyon
 ## Suspension Coil Summary
 See Figure 2 for a summary statistics table for the MechaCar's suspension coil variable in PSI.
 
-Figure 2. Suspension Coil Variable (PSI).
+#### Figure 2. Suspension Coil Variable (PSI).
 ![suspensioncoil_summary.png](figures/suspensioncoil_summary.png)
 
 The current manufacturing data (which showed a variance of 76.23; Figure 2) did meet a design specification of no more than 100 pounds per square inch for suspension coil variance. In addition, the mean and median values for the coil were similar, indicating no skew in the data. 
@@ -24,7 +24,7 @@ The current manufacturing data (which showed a variance of 76.23; Figure 2) did 
 ## Suspension Coil T-Test
 The MechaCar's suspension coil's mean PSI was not statistically different from the mean population result of 1,500 PSI (p-value of 0.51 in a one-sample t-test; Figure 3).
 
-Figure 3. Suspension Coil Variable Mean vs. Population Mean
+#### Figure 3. Suspension Coil Variable Mean vs. Population Mean
 ![t_test.png](figures/t_test.png)
 
 ## Study Proposal: Comparing MechaCar's Performance
@@ -37,7 +37,8 @@ Normal distribution would be verified qualitatively or quantitatively (Shapiro-W
 Data would need to be collected for all vehicles released in 2020 that are of the same vehicle class as MechaCar. These include vehicle make and model, price, city fuel efficiency, highway fuel efficiency, horsepower, and number of colour options per vehicle. 
 
 ## Data
-### Software: RStudio 1.3.1056
+### Software
+- RStudio 1.3.1056
 
 ### Sources
 - [MechaCar_mpg.csv](data/MechaCar_mpg.csv) (for MPG Regression)
